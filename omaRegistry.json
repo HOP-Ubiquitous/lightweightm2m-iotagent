@@ -387,16 +387,6 @@
         "schema": "http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0.xml",
         "resources": [
             {
-                "name": "SMS Tx Counter",
-                "type": "Integer",
-                "operations": "R"
-            },
-            {
-                "name": "SMS Rx Counter",
-                "type": "Integer",
-                "operations": "R"
-            },
-            {
                 "name": "Tx Data",
                 "type": "Integer",
                 "operations": "R"
@@ -531,22 +521,159 @@
     "3301": {
         "name": "Luminosity Sensor",
         "urn": "urn:oma:lwm2m:\next:3301",
-        "id": "3301"
+        "id": "3301",
+        "schema": "http://technical.openmobilealliance.org/tech/profiles/IPSO/3301.xml",
+        "resources": [
+            {
+                "name": "Luminosity Sensor Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Luminosity Min Measured Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Luminosity Max Measured Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Luminosity Min Range Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Luminosity Max Range Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Luminosity Reset Min and Max Measured Values",
+                "type": "",
+                "operations": "E"
+            },
+            {
+                "name": "Luminosity Sensor Units",
+                "type": "String",
+                "operations": "R"
+            }
+        ]
     },
     "3302": {
         "name": "Presence Sensor",
         "urn": "urn:oma:lwm2m:\next:3302",
-        "id": "3302"
+        "id": "3302",
+        "schema": "http://technical.openmobilealliance.org/tech/profiles/IPSO/3302.xml",
+        "resources": [
+            {
+                "name": "Digital Input State",
+                "type": "Boolean",
+                "operations": "R"
+            },
+            {
+                "name": "Digital Input Counter",
+                "type": "Integer",
+                "operations": "R"
+            },
+            {
+                "name": "Digital Input Counter Reset",
+                "type": "",
+                "operations": "E"
+            },
+            {
+                "name": "Digital Input Sensor Type",
+                "type": "String",
+                "operations": "R"
+            }
+        ]
     },
     "3303": {
         "name": "Temperature Sensor",
         "urn": "urn:oma:lwm2m:\next:3303",
-        "id": "3303"
+        "id": "3303",
+        "schema": "http://technical.openmobilealliance.org/tech/profiles/IPSO/3303.xml",
+        "resources": [
+            {
+                "name": "Temperature Sensor Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Temperature Min Measured Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Temperature Max Measured Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Temperature Min Range Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Temperature Max Range Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Temperature Reset Min and Max Measured Values",
+                "type": "",
+                "operations": "E"
+            },
+            {
+                "name": "Temperature Sensor Units",
+                "type": "String",
+                "operations": "R"
+            }
+        ]
     },
     "3304": {
         "name": "Humidity Sensor",
         "urn": "urn:oma:lwm2m:\next:3304",
-        "id": "3304"
+        "id": "3304",
+        "schema": "http://technical.openmobilealliance.org/tech/profiles/IPSO/3304.xml",
+        "resources": [
+            {
+                "name": "Humidity Sensor Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Humidity Min Measured Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Humidity Max Measured Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Humidity Min Range Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Humidity Max Range Value",
+                "type": "Float",
+                "operations": "R"
+            },
+            {
+                "name": "Humidity Reset Min and Max Measured Values",
+                "type": "",
+                "operations": "E"
+            },
+            {
+                "name": "Humidity Sensor Units",
+                "type": "String",
+                "operations": "R"
+            }
+        ]
     },
     "3305": {
         "name": "Power Measurement",
