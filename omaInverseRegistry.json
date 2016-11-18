@@ -599,5 +599,167 @@
         "objectResource": 0,
         "objectType": "10241",
         "objectInstance": null
+    },
+    "Digital Input State": {
+        "objectResource": 5500,
+        "objectType": "3302",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Digital Input Counter": {
+        "objectResource": 5501,
+        "objectType": "3302",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Digital Input Counter Reset": {
+        "objectResource": 5505,
+        "objectType": "3302",
+        "objectInstance": 0,
+        "operations": "E"
+    },
+    "Digital Input Sensor Type": {
+        "objectResource": 5751,
+        "objectType": "3302",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Digital Input Busy to Clear delay": {
+        "objectResource": 5903,
+        "objectType": "3302",
+        "objectInstance": 0,
+        "operations": "RW"
+    },
+    "Digital Input Clear to Busy delay": {
+        "objectResource": 5904,
+        "objectType": "3302",
+        "objectInstance": 0,
+        "operations": "RW"
+    },
+    "Luminosity Sensor Value": {
+        "objectResource": 5700,
+        "objectType": "3301",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Luminosity Min Measured Value": {
+        "objectResource": 5601,
+        "objectType": "3301",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Luminosity Max Measured Value": {
+        "objectResource": 5602,
+        "objectType": "3301",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Luminosity Min Range Value": {
+        "objectResource": 5603,
+        "objectType": "3301",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Luminosity Max Range Value": {
+        "objectResource": 5604,
+        "objectType": "3301",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Luminosity Reset Min and Max Measured Values": {
+        "objectResource": 5605,
+        "objectType": "3301",
+        "objectInstance": 0,
+        "operations": "E"
+    },
+    "Luminosity Sensor Units": {
+        "objectResource": 5701,
+        "objectType": "3301",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Temperature Sensor Value": {
+        "objectResource": 5700,
+        "objectType": "3303",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Temperature Min Measured Value": {
+        "objectResource": 5601,
+        "objectType": "3303",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Temperature Max Measured Value": {
+        "objectResource": 5602,
+        "objectType": "3303",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Temperature Min Range Value": {
+        "objectResource": 5603,
+        "objectType": "3303",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Temperature Max Range Value": {
+        "objectResource": 5604,
+        "objectType": "3303",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Temperature Reset Min and Max Measured Values": {
+        "objectResource": 5605,
+        "objectType": "3303",
+        "objectInstance": 0,
+        "operations": "E"
+    },
+    "Temperature Sensor Units": {
+        "objectResource": 5701,
+        "objectType": "3303",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Humidity Sensor Value": {
+        "objectResource": 5700,
+        "objectType": "3304",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Humidity Min Measured Value": {
+        "objectResource": 5601,
+        "objectType": "3304",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Humidity Max Measured Value": {
+        "objectResource": 5602,
+        "objectType": "3304",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Humidity Min Range Value": {
+        "objectResource": 5603,
+        "objectType": "3304",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Humidity Max Range Value": {
+        "objectResource": 5604,
+        "objectType": "3304",
+        "objectInstance": 0,
+        "operations": "R"
+    },
+    "Humidity Reset Min and Max Measured Values": {
+        "objectResource": 5605,
+        "objectType": "3304",
+        "objectInstance": 0,
+        "operations": "E"
+    },
+    "Humidity Sensor Units": {
+        "objectResource": 5701,
+        "objectType": "3304",
+        "objectInstance": 0,
+        "operations": "R"
     }
 }

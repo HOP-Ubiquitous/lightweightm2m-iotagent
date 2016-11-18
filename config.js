@@ -35,49 +35,38 @@ config.lwm2m = {
      * observe requests may not reach its destiny. This timeout (ms) is used to give the client the opportunity to
      * create the listener before the server sends the requests.
      */
-    delayedObservationTimeout: 50,
-    /** When at the same time several requests are demanded , the requests (read/write/execute) will be sent one
-    * after the other in order to avoid bottle necks in devices connected through slow mediums (SMS, proxy, ..). */
-    requestSerially: false,
+    delayedObservationTimeout: 5000,
+    /** When at the same time several requests are demanded , the requests (read/write/execute) will be sent one after
+        the other in order to avoid bottle necks in devices connected through slow mediums (SMS, proxy, ..). */
+    requestSerially: true,
     formats: [
-        {
-            name: 'application-vnd-oma-lwm2m/text',
-            value: 1541
-        },
         {
             name: 'application-vnd-oma-lwm2m/tlv',
             value: 1542
-        },
-        {
-            name: 'application-vnd-oma-lwm2m/json',
-            value: 1543
         },
         {
             name: 'application-vnd-oma-lwm2m/opaque',
             value: 1544
         }
     ],
-    writeFormat: 'application-vnd-oma-lwm2m/text',
+    writeFormat: 'application-vnd-oma-lwm2m/tlv',
     types: [ ]
 };
 
 config.ngsi = {
     logLevel: 'DEBUG',
     contextBroker: {
-        host: '192.168.56.101',
+        host: '127.0.0.1',
         port: '1026'
     },
     server: {
         port: 4041
     },
     deviceRegistry: {
-        type: 'mongodb',
- 	host: 'localhost'
+        type: 'memory'
     },
     types: { },
-    service: 'smartGondor',
-    subservice: '/gardens',
-    providerUrl: 'http://192.168.56.1:4041',
+    providerUrl: 'http://127.0.0.1:4041',
     deviceRegistrationDuration: 'P1M'
 };
 
