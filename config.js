@@ -63,7 +63,12 @@ config.ngsi = {
         port: 4041
     },
     deviceRegistry: {
-        type: 'memory'
+        type: 'mongodb'
+    },
+    mongodb: {
+        host: 'localhost',
+        port: '27017',
+        db: 'iotagentlwm2m'
     },
     types: { },
     providerUrl: 'http://127.0.0.1:4041',
