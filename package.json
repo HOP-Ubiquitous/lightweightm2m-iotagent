@@ -36,7 +36,7 @@
     "cheerio": "0.20.0",
     "xmldom": "0.1.22",
     "logops": "0.5.0",
-    "iotagent-node-lib": "0.10.0",
+    "iotagent-node-lib": "git://github.com/HOP-Ubiquitous/iotagent-node-lib.git#hopu-noremoveregister",
     "lwm2m-node-lib": "git://github.com/HOP-Ubiquitous/lwm2m-node-lib.git#test-hopu"
   },
   "devDependencies": {
