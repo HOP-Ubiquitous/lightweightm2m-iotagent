@@ -35,7 +35,7 @@ config.lwm2m = {
      * observe requests may not reach its destiny. This timeout (ms) is used to give the client the opportunity to
      * create the listener before the server sends the requests.
      */
-    delayedObservationTimeout: 5000,
+    delayedObservationTimeout: 2000,
     /** When at the same time several requests are demanded , the requests (read/write/execute) will be sent one after
         the other in order to avoid bottle necks in devices connected through slow mediums (SMS, proxy, ..). */
     requestSerially: true,
@@ -50,7 +50,28 @@ config.lwm2m = {
         }
     ],
     writeFormat: 'application-vnd-oma-lwm2m/tlv',
-    types: [ ]
+    types: [
+        {
+            name: 'HOPBeacon',
+            url: '/hopbeacon'
+        },
+        {
+            name: 'HOPSmartMeetRoom',
+            url: '/hopsmr'
+        },
+        {
+            name: 'HOPFloodSensor',
+            url: '/hopflsr'
+        },
+        {
+            name: 'HOPShutOffMotor',
+            url: '/hopsom'
+        },
+        {
+            name: 'HOPUbiM2M',
+            url: '/hopubim2m'
+        }
+    ]
 };
 
 config.ngsi = {
